@@ -1,0 +1,9 @@
+[user]
+    name = YOUR_NAME
+    email = YOUR_VERIFIED_EMAIL
+[init]
+    defaultBranch = main
+[core]
+    editor = code --wait
+    longpaths = true
+# Keep installer-provided credential manager and TLS defaults.

@@ -1,0 +1,16 @@
+; Local development only. Merge into existing php.ini; do not replace it.
+memory_limit=512M
+upload_max_filesize=256M
+post_max_size=300M
+max_execution_time=300
+max_input_time=300
+max_input_vars=5000
+date.timezone=Asia/Shanghai
+error_reporting=E_ALL
+display_errors=On
+display_startup_errors=On
+log_errors=On
+extension=gd
+extension=intl
+extension=sqlite3
+extension=zip
