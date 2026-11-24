@@ -9,3 +9,13 @@ __pycache__/
 /reports/
 /environment-*.json
 /environment-*.md
+
+# Private data: keep outside the repository as well
+/backups/
+/private/
+**/environment-*.json
+**/environment-*.md
+!examples/environment-report.json
+!tests/fixtures/*.json
+*.sql
+*.bak

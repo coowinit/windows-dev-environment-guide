@@ -1,7 +1,8 @@
-# 自动化脚本
+# 环境检测工具
 
-- [check-environment.ps1](check-environment.ps1)：已通过 Windows PowerShell 5.1 正常环境实机验证的 preview.3 原版。
-- [运行说明与报告协议](../docs/environment-check.md)
+- [check-environment.ps1](check-environment.ps1)：保留 Windows PowerShell 5.1 实机验证的 preview.3 原版。
+- [检测说明与报告协议](../docs/environment-check.md)
 - [报告查看器](../report.html)
+- [人工备份清单](../docs/backup-checklist.md)
 
-下一阶段：异常场景回归、配置备份恢复；不默认自动修复系统。
+请下载完整仓库，扩展检测依赖配置清单。默认不修改系统、不启动服务。后续只按实际需要维护，不新增自动备份、恢复或安装脚本。

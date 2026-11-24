@@ -23,3 +23,12 @@ Version、GeneratedAt、Summary、Results；每项包含 Name、Status、Detail�
 ## 实机记录与边界
 
 2026-11-24 Windows PowerShell 5.1：preview.1 的 Apache 检测误报，preview.2 的退出码为空导致大量误报，preview.3 修复退出码作用域后获得 50 PASS、0 WARN、0 FAIL、3 SKIP。实际跳过 GitHub 实际推送、Web PHP/WordPress 验证和 Codex。PHP 模块检测限 CLI；不能替代生产环境兼容性测试。不存在的 XAMPP 路径实测 46 PASS、1 WARN、0 FAIL、4 SKIP；其他异常场景与 PowerShell 7 尚未全面验收。详见 [实测记录](validation.md)。
+
+
+## 使用边界补充（v1.2.0 文档审校）
+
+- 下载完整仓库：扩展检测读取 `configs/vscode/extensions.txt`，单独下载脚本可能跳过此项。
+- npm/npx 使用 `.cmd` 探测，不证明 PowerShell 的 `.ps1` 包装脚本一定可运行。
+- PHP CLI 取自 PATH，不一定属于 `-XamppRoot`；用 `where.exe php`、`php --ini` 核对。
+- WARN 需要复核，即使退出码为 0；SKIP 是未检测或可选项，不算通过。报告仅代表检测时的状态。
+- 只保留现有检测与报告功能，不新增自动备份、恢复、安装或自动修复程序。
