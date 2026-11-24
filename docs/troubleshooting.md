@@ -42,3 +42,7 @@ git credential-manager github list
 ## Codex 暂缓
 
 本次安装未成功，未纳入基础验收；不影响其他工具，后续单独研究。
+
+## Apache 检测误报与退出码
+
+`httpd.exe -t` 可将 Syntax OK 写到 stderr；应结合原生程序退出码判定。preview.3 修复后实机返回 Exit 0: Syntax OK。详见 [环境检测](environment-check.md)。

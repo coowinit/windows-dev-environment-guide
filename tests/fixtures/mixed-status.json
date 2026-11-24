@@ -1,0 +1,330 @@
+{
+  "Version": "1.1.0-preview.3",
+  "GeneratedAt": "2026-11-24T00:00:00+08:00",
+  "Summary": {
+    "PASS": 48,
+    "WARN": 1,
+    "FAIL": 1,
+    "SKIP": 3
+  },
+  "Results": [
+    {
+      "Name": "PowerShell",
+      "Status": "PASS",
+      "Detail": "5.1.19041.6456",
+      "Advice": ""
+    },
+    {
+      "Name": "Execution policy",
+      "Status": "PASS",
+      "Detail": "RemoteSigned",
+      "Advice": ""
+    },
+    {
+      "Name": "Python",
+      "Status": "PASS",
+      "Detail": "Python 3.13.17",
+      "Advice": ""
+    },
+    {
+      "Name": "pip",
+      "Status": "PASS",
+      "Detail": "26.3",
+      "Advice": ""
+    },
+    {
+      "Name": "Python runtime",
+      "Status": "FAIL",
+      "Detail": "Simulated: runtime test failed",
+      "Advice": "Check Python installation and PATH."
+    },
+    {
+      "Name": "Node.js",
+      "Status": "PASS",
+      "Detail": "v24.22.3",
+      "Advice": ""
+    },
+    {
+      "Name": "npm",
+      "Status": "PASS",
+      "Detail": "11.19.1",
+      "Advice": ""
+    },
+    {
+      "Name": "npx",
+      "Status": "PASS",
+      "Detail": "11.19.1",
+      "Advice": ""
+    },
+    {
+      "Name": "Node runtime",
+      "Status": "PASS",
+      "Detail": "Node OK",
+      "Advice": ""
+    },
+    {
+      "Name": "Git",
+      "Status": "PASS",
+      "Detail": "git version 2.56.1.windows.1",
+      "Advice": ""
+    },
+    {
+      "Name": "Git Credential Manager",
+      "Status": "PASS",
+      "Detail": "2.9.1",
+      "Advice": ""
+    },
+    {
+      "Name": "Git user.name",
+      "Status": "PASS",
+      "Detail": "Configured (value hidden)",
+      "Advice": ""
+    },
+    {
+      "Name": "Git user.email",
+      "Status": "PASS",
+      "Detail": "Configured (value hidden)",
+      "Advice": ""
+    },
+    {
+      "Name": "Git init.defaultBranch",
+      "Status": "PASS",
+      "Detail": "Configured (value hidden)",
+      "Advice": ""
+    },
+    {
+      "Name": "VS Code",
+      "Status": "PASS",
+      "Detail": "1.147.0",
+      "Advice": ""
+    },
+    {
+      "Name": "Extension bmewburn.vscode-intelephense-client",
+      "Status": "PASS",
+      "Detail": "Installed",
+      "Advice": ""
+    },
+    {
+      "Name": "Extension esbenp.prettier-vscode",
+      "Status": "PASS",
+      "Detail": "Installed",
+      "Advice": ""
+    },
+    {
+      "Name": "Extension ms-ceintl.vscode-language-pack-zh-hans",
+      "Status": "PASS",
+      "Detail": "Installed",
+      "Advice": ""
+    },
+    {
+      "Name": "Extension ms-python.debugpy",
+      "Status": "PASS",
+      "Detail": "Installed",
+      "Advice": ""
+    },
+    {
+      "Name": "Extension ms-python.python",
+      "Status": "PASS",
+      "Detail": "Installed",
+      "Advice": ""
+    },
+    {
+      "Name": "Extension ms-python.vscode-pylance",
+      "Status": "PASS",
+      "Detail": "Installed",
+      "Advice": ""
+    },
+    {
+      "Name": "Extension ms-python.vscode-python-envs",
+      "Status": "PASS",
+      "Detail": "Installed",
+      "Advice": ""
+    },
+    {
+      "Name": "Extension ms-vscode.powershell",
+      "Status": "PASS",
+      "Detail": "Installed",
+      "Advice": ""
+    },
+    {
+      "Name": "Extension postman.postman-for-vscode",
+      "Status": "PASS",
+      "Detail": "Installed",
+      "Advice": ""
+    },
+    {
+      "Name": "Extension ritwickdey.liveserver",
+      "Status": "PASS",
+      "Detail": "Installed",
+      "Advice": ""
+    },
+    {
+      "Name": "Extension shd101wyy.markdown-preview-enhanced",
+      "Status": "PASS",
+      "Detail": "Installed",
+      "Advice": ""
+    },
+    {
+      "Name": "Extension xdebug.php-debug",
+      "Status": "PASS",
+      "Detail": "Installed",
+      "Advice": ""
+    },
+    {
+      "Name": "Extension yzhang.markdown-all-in-one",
+      "Status": "PASS",
+      "Detail": "Installed",
+      "Advice": ""
+    },
+    {
+      "Name": "PHP",
+      "Status": "PASS",
+      "Detail": "PHP 8.5.13 (cli) (built: Nov 18 2026 01:01:49) (ZTS Visual C++ 2022 x64)",
+      "Advice": ""
+    },
+    {
+      "Name": "PHP runtime",
+      "Status": "PASS",
+      "Detail": "PHP OK",
+      "Advice": ""
+    },
+    {
+      "Name": "PHP module mysqli",
+      "Status": "PASS",
+      "Detail": "Loaded (CLI)",
+      "Advice": ""
+    },
+    {
+      "Name": "PHP module pdo_mysql",
+      "Status": "PASS",
+      "Detail": "Loaded (CLI)",
+      "Advice": ""
+    },
+    {
+      "Name": "PHP module pdo_sqlite",
+      "Status": "PASS",
+      "Detail": "Loaded (CLI)",
+      "Advice": ""
+    },
+    {
+      "Name": "PHP module sqlite3",
+      "Status": "PASS",
+      "Detail": "Loaded (CLI)",
+      "Advice": ""
+    },
+    {
+      "Name": "PHP module curl",
+      "Status": "PASS",
+      "Detail": "Loaded (CLI)",
+      "Advice": ""
+    },
+    {
+      "Name": "PHP module mbstring",
+      "Status": "PASS",
+      "Detail": "Loaded (CLI)",
+      "Advice": ""
+    },
+    {
+      "Name": "PHP module openssl",
+      "Status": "PASS",
+      "Detail": "Loaded (CLI)",
+      "Advice": ""
+    },
+    {
+      "Name": "PHP module gd",
+      "Status": "PASS",
+      "Detail": "Loaded (CLI)",
+      "Advice": ""
+    },
+    {
+      "Name": "PHP module intl",
+      "Status": "PASS",
+      "Detail": "Loaded (CLI)",
+      "Advice": ""
+    },
+    {
+      "Name": "PHP module zip",
+      "Status": "PASS",
+      "Detail": "Loaded (CLI)",
+      "Advice": ""
+    },
+    {
+      "Name": "PHP module fileinfo",
+      "Status": "PASS",
+      "Detail": "Loaded (CLI)",
+      "Advice": ""
+    },
+    {
+      "Name": "PHP module dom",
+      "Status": "PASS",
+      "Detail": "Loaded (CLI)",
+      "Advice": ""
+    },
+    {
+      "Name": "PHP module SimpleXML",
+      "Status": "PASS",
+      "Detail": "Loaded (CLI)",
+      "Advice": ""
+    },
+    {
+      "Name": "PHP module exif",
+      "Status": "PASS",
+      "Detail": "Loaded (CLI)",
+      "Advice": ""
+    },
+    {
+      "Name": "MariaDB client",
+      "Status": "PASS",
+      "Detail": "mysql.exe Ver 15.1 Distrib 10.11.19-MariaDB, for Win64 (AMD64)",
+      "Advice": ""
+    },
+    {
+      "Name": "Database dump client",
+      "Status": "PASS",
+      "Detail": "mysqldump.exe  Ver 10.19 Distrib 10.11.19-MariaDB, for Win64 (AMD64)",
+      "Advice": ""
+    },
+    {
+      "Name": "XAMPP directory",
+      "Status": "PASS",
+      "Detail": "Directory found",
+      "Advice": ""
+    },
+    {
+      "Name": "Apache configuration",
+      "Status": "WARN",
+      "Detail": "Simulated: configuration check failed",
+      "Advice": "Check Apache configuration manually."
+    },
+    {
+      "Name": "Apache HTTP",
+      "Status": "PASS",
+      "Detail": "Local port 80 accepts TCP (service identity not verified)",
+      "Advice": ""
+    },
+    {
+      "Name": "MariaDB TCP",
+      "Status": "PASS",
+      "Detail": "Local port 3306 accepts TCP (service identity not verified)",
+      "Advice": ""
+    },
+    {
+      "Name": "GitHub authentication / actual push",
+      "Status": "SKIP",
+      "Detail": "Requires separate manual verification.",
+      "Advice": ""
+    },
+    {
+      "Name": "Web PHP / WordPress",
+      "Status": "SKIP",
+      "Detail": "Requires separate browser and project verification.",
+      "Advice": ""
+    },
+    {
+      "Name": "Codex",
+      "Status": "SKIP",
+      "Detail": "Optional; not required for baseline.",
+      "Advice": ""
+    }
+  ]
+}

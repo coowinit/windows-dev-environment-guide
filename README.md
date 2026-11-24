@@ -2,13 +2,28 @@
 
 面向 Windows 开发工作站的标准化搭建、配置、检测、故障排查与备份恢复指南。
 
-**v1.0.0 · 2026-11-24 实践记录**
+**v1.1.0 · 2026-11-24 实践记录**
 
 [在线指南（GitHub Pages 启用后）](https://coowinit.github.io/windows-dev-environment-guide/) · [本地入口](index.html)
 
 ## 使用方式
 
 直接打开 index.html，无需构建或安装依赖。GitHub Pages 选择 main 分支根目录即可发布。命令请逐条执行，并按实际路径调整。
+
+## 环境自动检测
+
+- [检测脚本](scripts/check-environment.ps1)（保留实机验证的 preview.3）
+- [使用说明](docs/environment-check.md)
+- [可视化报告](report.html) · [在线报告](https://coowinit.github.io/windows-dev-environment-guide/report.html)
+- [脱敏示例 JSON](examples/environment-report.json)
+
+正常环境实测 50 PASS、0 WARN、0 FAIL、3 SKIP。不存在的 XAMPP 路径实测 46 PASS、1 WARN、0 FAIL、4 SKIP；PowerShell 7 尚未实机验证。
+
+## 回归测试与发布验收
+
+- [测试说明](tests/README.md)
+- `node tests/report-parser.test.cjs`：无需安装依赖，检查报告解析与分类。
+- 三份模拟异常报告位于 `tests/fixtures/`，供浏览器人工验收。详见 [实测记录](docs/validation.md)。打印采用紧凑 A4 样式，建议关闭浏览器页眉页脚。
 
 ## 专项文档
 
@@ -37,10 +52,11 @@
 | 版本 | 规划 |
 |---|---|
 | v1.0.0 | HTML 指南、专项文档、配置模板 |
-| v1.1.0 | 只读环境检测脚本与报告 |
+| v1.1.0 | 只读环境检测脚本与可视化报告 |
 | v1.2.0 | 配置备份及恢复 |
 | v1.3.0 | 可选自动安装和初始化 |
 | v1.4.0 | Codex 专项指南 |
+| v1.5.0 | 历史报告与环境差异对比 |
 | v2.0.0 | 按实际需求决定是否建设管理工具 |
 
 ## 安全与维护

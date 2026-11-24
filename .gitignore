@@ -4,3 +4,8 @@ __pycache__/
 .env
 *.backup
 *.local.json
+
+# Local diagnostics
+/reports/
+/environment-*.json
+/environment-*.md

@@ -33,3 +33,7 @@ python -m venv .venv
 python -c "import sys; print(sys.executable)"
 deactivate
 ```
+
+## 下载脚本被阻止
+
+审阅并确认脚本可信后，使用 `Unblock-File -LiteralPath ".\scripts\check-environment.ps1"`。不要降低全局执行策略或绕过组织策略。详见 [检测工具](environment-check.md)。
